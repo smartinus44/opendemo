@@ -11,6 +11,6 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello RESTEasy, this is a quick fix!";
+        return "Hello RESTEasy, this is a quick fix! Another quick fix from devspace by the q/a team.";
     }
 }
